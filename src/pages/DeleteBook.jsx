@@ -14,7 +14,7 @@ const DeleteBooks = () => {
     console.log("Deleting note...");
     // setLoading(true);
     axios
-      .delete(`http://localhost:5555/notes/${id}`)
+      .delete(`https://books-b-d.onrender.com/notes/${id}`)
       .then(() => {
         console.log("Note deleted successfully");
         // setLoading(false);
