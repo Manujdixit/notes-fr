@@ -1,8 +1,9 @@
 import { AiOutlineClose } from "react-icons/ai";
-import { IoTimerOutline } from "react-icons/io5";
+
 import React from "react";
 import { MdTitle } from "react-icons/md";
 import { CiTextAlignCenter } from "react-icons/ci";
+import { IoTimerOutline } from "react-icons/io5";
 
 const BookModal = ({ book, onClose }) => {
   return (
@@ -22,7 +23,7 @@ const BookModal = ({ book, onClose }) => {
 
           <div className="flex justify-start items-center gap-x-2">
             <IoTimerOutline className="text-red-300 text-2xl" />
-            <h2 className="my-1">{book.title}</h2>
+            <h2 className="my-1">{book.finishtill}</h2>
           </div>
 
           <div className="flex justify-start items-center gap-x-2">
